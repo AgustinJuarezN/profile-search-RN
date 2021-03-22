@@ -1,15 +1,26 @@
-import React, { useState } from "react";
-import { StyleSheet, View, FlatList, Platform} from "react-native";
+import React, { useState, useEffect } from "react";
+import { StyleSheet, View, FlatList, Platform } from "react-native";
 import { colors } from "../../res/colors";
 import { SearchBar } from "react-native-elements";
 import users from "../../../users.json";
 import UserListItem from "../../components/UserListItem/UserListItem";
+import { useRoute } from "@react-navigation/native";
 
 const Home = () => {
+  const route = useRoute();
   const [search, setSearch] = useState("");
   const [data, setData] = useState(users);
 
-  const renderUser = ({ item }) => <UserListItem data={item} search={search}/>;
+  const q = route.params?.q;
+
+  useEffect(() => {
+    if (q) {
+      setSearch(q);
+      filter(q);
+    }
+  }, []);
+
+  const renderUser = ({ item }) => <UserListItem data={item} search={search} />;
 
   const filter = (value) => {
     setSearch(value);
@@ -49,7 +60,7 @@ const styles = StyleSheet.create({
   container: {
     margin: 20,
     flex: 1,
-    paddingTop: Platform.OS === 'ios' ? 25 : 0
+    paddingTop: Platform.OS === "ios" ? 25 : 0,
   },
   text: {
     color: colors.black,
