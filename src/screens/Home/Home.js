@@ -11,7 +11,7 @@ const Home = () => {
   const [search, setSearch] = useState("");
   const [data, setData] = useState(users);
 
-  const { q } = route.params;
+  const q = route.params?.q;
 
   useEffect(() => {
     if (q) {
