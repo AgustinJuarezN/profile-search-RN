@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Project.iml" filepath="$PROJECT_DIR$/.idea/modules/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Project.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Project.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1886735160/Project.react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-1886735160/Project.react-native-community_masked-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1655742193/Project.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1655742193/Project.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1337102253/Project.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1337102253/Project.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1378979400/Project.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1378979400/Project.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1113724880/Project.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1113724880/Project.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-842667737/Project.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-842667737/Project.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>
